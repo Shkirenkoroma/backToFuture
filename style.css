@@ -1,0 +1,96 @@
+body {
+	text-align: center;
+	background: #df16a3;
+	font-family: sans-serif;
+	font-weight: 100;
+};
+
+input {
+	margin-bottom: 20px;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px;
+	border: none;
+};
+
+button {
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+};
+
+button:hover {
+	cursor: pointer;
+	opacity: 0.7;
+	transition: all 700ms;
+};
+
+.container {
+	margin-top: 300px;
+};
+
+.countdown-title {
+	color: #ffffff;
+	font-weight: 100;
+	font-size: 40px;
+	margin: 40px 0px 20px;
+	font-family: "Delicious Handrawn", cursive;
+};
+
+.countdown {
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+};
+
+.countdown-number {
+	padding: 10px;
+	border-radius: 3px;
+	display: inline-block;
+	font-family: "Delicious Handrawn", cursive;
+};
+
+.countdown-time {
+	padding: 15px;
+	border-radius: 3px;
+	display: inline-block;
+	font-family: "Delicious Handrawn", cursive;
+};
+
+.countdown-text {
+	display: block;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: "Delicious Handrawn", cursive;
+};
+
+.deadline-message {
+	display: none;
+	font-size: 24px;
+	font-style: italic;
+	font-family: "Delicious Handrawn", cursive;
+};
+
+.visible {
+	display: block;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Delicious Handrawn", cursive;
+};
+
+.hidden {
+	display: none;
+};

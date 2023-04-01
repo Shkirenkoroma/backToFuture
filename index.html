@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Chakra+Petch&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@500;600&family=Pacifico&display=swap" rel="stylesheet">
+		<title>Timer</title>
+	</head>
+	<body>
+		<main class="container">
+			<h1 class="countdown-title">Back to the Future</h1>
+			<input placeholder="Seconds" type="text" />
+			<button>Start</button>
+			<section class="container__content">
+				<div id="deadline-message" class="deadline-message">Time is over!</div>
+				<div id="countdown" class="countdown">
+					<div class="countdown-number">
+						<span class="hours countdown-time">HH</span>
+						<span class="countdown-text">Hours</span>
+					</div>
+					<span>:</span>
+					<div class="countdown-number">
+						<span class="minutes countdown-time">MM</span>
+						<span class="countdown-text">Minutes</span>
+					</div>
+					<span>:</span>
+					<div class="countdown-number">
+						<span class="seconds countdown-time">SS</span>
+						<span class="countdown-text">Seconds</span>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="./index.js"></script>
+	</body>
+</html>
