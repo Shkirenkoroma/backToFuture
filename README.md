@@ -1,4 +1,5 @@
-### Live-версия проекта доступна по ссылке https://shkirenkoroma.github.io/backToFuture/
+#### Live-версия проекта доступна по ссылке: https://shkirenkoroma.github.io/backToFuture/
+
 Проект "Таймер"
 ![image](https://user-images.githubusercontent.com/61347452/229278110-028163c5-220c-43cd-9e54-9a124e959906.png)
 Реализация на нативном JS. Для запуска таймера необходимо в поле input вводить количество секунд, далее, программа сама расчитает - часы, минуты, секунды
